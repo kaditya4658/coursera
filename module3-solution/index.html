@@ -1,127 +1,57 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>The Park Avenue Restaurant</title>
-<link rel="stylesheet" href="./css/bootstrap.min.css">
-<link rel="stylesheet" href="./css/style.css">
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Food LLC</title> 
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
-
 <header>
-    <nav id="header-nav" class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <a href="index.html" class="pull-left visible-md visible-lg">
-                    <div id="logo-img" alt:"logo image"></div>
-                </a>
+ <nav id="header-nav" class="navbar navbar-default"> 
+<div class="container"> 
+<div class="navbar-header">
+ <a href="index.html" class="pull-left visible-md visible-lg">
+ </a> 
+<div class="navbar-brand">
+ <a href="index.html">
+<h1>Food LLC</h1>
+</a>
+ 
+ </div>
+ <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false"> 
+<span class="sr-only">Toggle navigation</span> 
+<span class="icon-bar"></span>
+ <span class="icon-bar"></span> 
+<span class="icon-bar"></span> 
+</button>
+ </div>
+ <div id="collapsable-nav" class="collapse navbar-collapse">
+ <ul id="nav-list" class="nav navbar-nav navbar-right"> 
+<li> <a href="menu-categories.html"> <span class="glyphicon glyphicon-cutlery"></span>
+<br class="hidden-xs"> Menu</a>
+ </li> <li> <a href="#">
+ <span class="glyphicon glyphicon-info-sign"></span>
+<br class="hidden-xs"> About</a> </li>
+ <li> <a href="#"> <span class="glyphicon glyphicon-certificate"></span>
+<br class="hidden-xs"> Awards</a> </li>
+ <li id="phone" class="hidden-xs"> <a href="tel:410-602-5008"> <span>410-602-5008</span></a>
+<div>* We Deliver</div> </li>
+ </ul>
+<!-- #nav-list --> 
+</div><!-- .collapse .navbar-collapse -->
+ </div><!-- .container --> 
+</nav><!-- #header-nav -->
+ </header>
 
-                <div class="navbar-brand">
-                    <a href="index.html"><h1>The Park Avenue</h1></a>
-                    <p>
-                        <img src="img/starlogo.jpg" alt="Kosher Certifocation">
-                        <span>Kosher Certified</span>
-                    </p>
-                </div>
-            
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"> 
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="nav navbar-nav navbar-right" id="nav-list">
-                    <li class="visible-xs">
-                        <a href="index.html">
-                            <span class="glyphicon glyphiconglyphicon-home">Home</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="menu-categories.html">
-                            <span class="glyphicon glyphicon-cutlery"><svg class="bi bi-plus-square-fill" width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" d="M2 0a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V2a2 2 0 00-2-2H2zm6.5 4a.5.5 0 00-1 0v3.5H4a.5.5 0 000 1h3.5V12a.5.5 0 001 0V8.5H12a.5.5 0 000-1H8.5V4z" clip-rule="evenodd"/> </svg></span>
-                            <br class="hidden-xs">Menu
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="glyphicon glyphicon-info-sign"><svg class="bi bi-info-circle-fill" width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/> </svg></span>
-                            <br class="hidden-xs">About
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="glyphicon glyphicon-certificate"> <svg class="bi bi-award-fill" width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"> <path d="M8 0l1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/> <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/> </svg></span>
-                            <br class="hidden-xs">Awards
-                        </a>
-                    </li>
-                    <li id="phone" class="hidden-xs">
-                        <a href="tel:8986323287">
-                            <span>89863-23287</span>
-                        </a>
-                        <div>*We  deliver</div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</header>
-
-<div id="call-btn" class="visible-xs">
-    <a class="btn" href="tel:89863-23287">89863-23287</a>
-</div>
-<div id="xs-deliver" class="text-center visible-xs">* We deliver</div>
-
-<div id="main-content" class="container">
-    <div class="jumbotron">
-        <img src="img/Jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
-    </div>
-
-    <div id="home-tiles" class="row">
-        <div class="col-md-4 col-sm-6 col-xs-12">
-            <a href="menu-categories.html"><div id="menu-title"><span>menu</span></div></a>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
-            <a href="single-category.html"><div id="specials-title"><span>specials</span></div></a>
-        </div>
-        <div class="col-md-4 col-sm-12 col-xs-12">
-            <a href="https://www.google.com/maps/place/Belhi+Devi+Temple,+204,+SH+54,+Chhatauni+Badhai+Tola,+Motihari,+Bihar+845401/@26.6510642,84.9233457,17z/data=!4m2!3m1!1s0x399334dc6643c773:0xb50defdcf7725c78" target="_blank"><div id="map-title"><iframe width="100%" height="250px" src="https://maps.google.com/maps?hl=en&amp;q=bank road, motihari, bihar 845401+(belahi devi mandir)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><span>map</span></div></a>
-        </div>
-    </div>
-</div>
-
-<footer class="panel-footer">
-    <div class="container">
-        <div class="row">
-            <section id="hours" class="col-sm-4">
-                <span>Hours:</span><br>
-                Sun - Thurs : 11:15am to 10:00pm<br>
-                Fri - 11:15am to 2:30pm<br>
-                Saturday closed
-                <hr class="visible-xs">
-            </section>
-            <section id="address" class="col-sm-4">
-                <span>Address:</span><br>
-                7105 Bailey Road,<br>
-                Patna, India
-                    <p>* Delivary area with 1-2 km and delivery must be of above Rs.100. waiting for order.</p>
-                <hr class="visible-xs">
-            </section>
-            <section id="testimonials" class="col-sm-4">
-                    <p>The best chinese restaurant I have been to and that's saying a lot,i have been many.</p>
-                    <p>Amazing food!! Good Service!! Couldn't ask for more.I will be back again and again.</p>
-                <hr class="visible-xs">
-            </section>
-        </div>
-        <div class="text-center">&copy; Copyright The Park Avenue</div>
-    </div>
-</footer>
-
-<script src="js/jquery-3.5.0.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/script.js"></script>
+<script src="./js/jquery-3.5.0.min.js"></script> 
+<script src="./js/bootstrap.min.js"></script> 
+<script src="./js/script.js"></script>
 </body>
 </html>
