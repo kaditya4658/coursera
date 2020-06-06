@@ -120,8 +120,6 @@ color:black;
 
 #demo1, #demo2{
 color:black;
-font-size:9vw;
-font-family: 'Parisienne', cursive;
 font-weight:bold;
 }
 
@@ -130,8 +128,8 @@ padding-top:85px;
 }
 
 #profile_name_1  h2, #profile_name_2 h2{
-font-size:3.6em;
-font-family: 'Parisienne', cursive;
+font-size:3.4em;
+font-family: 'Merriweather', serif;
 }
 
 #profile_name_1 h3, #profile_name_2 h3{
@@ -290,7 +288,7 @@ font-style: italic;
 .navbar-brand h1{
   padding-top:20px;
   padding-bottom:20px;
-	font-size:6vw;   /* 1% of viewport width*/
+	font-size:7vw;   /* 1% of viewport width*/
 	}
 /* Header End */
 
@@ -307,7 +305,7 @@ font-style: italic;
 .navbar-brand h1{
   padding-top:20px;
   padding-bottom:20px;
-	font-size:6vw;   /* 1% of viewport width*/
+	font-size:7vw;   /* 1% of viewport width*/
 	}
 /* Header End */
 
