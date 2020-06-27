@@ -177,7 +177,7 @@ body{
 	right:0;
 	width:100%;
 	text-align:center;
-	font-size:3.5vw;
+	font-size:25px;
 	background-color: #000;
 	color:#fff;
 	opacity: .8;
@@ -188,6 +188,12 @@ body{
 #quote h1{
 	font-size:8vw;
 	text-align:center;
+}
+
+/* Hardware Skills */
+#sub-head{
+	font-size:4vw; 
+	margin-bottom:20px;
 }
 
 /* homepage ends */
@@ -240,6 +246,10 @@ body{
 
 	.col-lg-3{
 		margin-left:75px;
+	}
+
+	#sub-head{
+		margin-left: 5vw;
 	}
 
 }
